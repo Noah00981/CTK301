@@ -1,0 +1,50 @@
+h1{ 
+    color:purple; 
+    background-color:teal;
+}
+
+h2{
+    color:mediumslateblue;
+    background-color:yellow;
+}
+
+h3{
+    color:magenta;
+    background-color: aqua;
+}
+
+h4{
+    color: palegreen;
+    background-color: slateblue;
+}
+#specialid{
+    color: plum;
+}
+.specialp{
+    color: red;
+}
+
+.spanstyle{
+    color: red;
+}
+
+.specialp2{
+    color: ghostwhite;
+    background-color: black;
+}
+
+.specialp3{
+    color: wheat;
+    background-color: darkgreen;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: green
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline
+}
