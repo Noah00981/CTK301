@@ -1,0 +1,95 @@
+h1{ 
+    color:orange; 
+    background-color:teal;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2{
+    color:orange;
+    background-color:yellow;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color:orange;
+    background-color: aqua;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4{
+    color:orange;
+    background-color: slateblue;
+    font-style: italic;
+    font-weight: normal;
+}
+
+body{
+    background-color: white;
+    background-image: url(backgroundimage.JPEG);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.boxmodel {
+    border: 2px solid #0000ff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.imgbox {
+    border: 60px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+
+#specialid{
+    color: plum;
+}
+
+.specialp{
+    color: red
+    
+}
+
+.spanstyle{
+    color: red;
+}
+
+.specialp2{
+    color: ghostwhite;
+    background-color: black;
+}
+
+.specialp3{
+    color: wheat;
+    background-color: darkgreen;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: green
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline
+}
+
+.customtext1{
+    font: sans-serif;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.pwidth {
+    width: 100px;
+}
