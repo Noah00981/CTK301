@@ -1,0 +1,24 @@
+h1{ 
+    color:firebrick; 
+    background-color: #00FF00;
+}
+
+.bluetext
+{
+    color:blue
+}
+#greentext {
+    color: darkgreen;
+    background-color: red
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: gray
+}
+a:hover {
+    color: green;
+    text-decoration: underline
+}
