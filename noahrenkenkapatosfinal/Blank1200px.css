@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1300px;
+  border: none;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1{
+  display: grid;
+  grid-column: span 2;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "impetus", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.gvjspotify{
+  grid-column: span 2;
+  padding-bottom: 20px;
+}
+
+
+main{
+  grid-column: span 1;
+  font-size: 20px;
+}
+
+header{
+  grid-column: span 2;
+  font-size: 30px;
+}
+
+nav{
+  grid-column: span 2;
+  font-size: 40px;
+}
+
+footer{
+  grid-column: span 2;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 34px;
+  margin-top: 16px;
+}
+
+footer a{
+text-decoration: none;
+padding: 10px;
+}
+
+footer a:visited
+{ text-decoration: none;
+  color: black;
+
+}
+
+.img1{
+  width: 480px;
+  display: grid;
+  grid-column: span 1;
+}
+
+.swignoah{
+  border-radius: 300px;
+  width: 500px;
+}
+
+li{
+  font-family: "bodega-sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 40px;
+  grid-column: span 2;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 24px
+}
+
+nav li a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+nav li a:hover{
+  color: purple;
+  text-decoration: underline;
+}
+
+nav li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover:visited{
+  color: purple;
+  text-decoration: underline;
+}
+
+.textshadowbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: black;
+  text-shadow: 0.5px 0.5px 0.5px #666; /* x, y, blur, color */
+}
+
+#myCarousel{
+  grid-column: span 1;
+  margin-bottom: 10px;
+}
+
+#myCarousel img {
+  width: 100%;
+}
+
+.contactbox{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+.contactbox a{
+  text-decoration: underline;
+  color: black;
+}
+
+aside {
+  grid-column: span 1;
+}
+
+.aaw {
+  padding-left: 76px;
+}
